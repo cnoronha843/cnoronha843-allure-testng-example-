@@ -24,7 +24,7 @@ public class PaymentServiceTest {
     @Test(groups = {"sendTxn"})
     void validateTransaction() {
         // Dummy test
-        String transactionId = "43";
+        String transactionId = "42";
         Assert.assertNotNull(transactionId);
     }
 
